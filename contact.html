@@ -1,94 +1,45 @@
-<<!DOCTYPE HTML>
+<!DOCTYPE HTML>
 <!--以下<>內的需為小寫但是<!DOCTYPE HTML>的D須為大寫-->
 <!--上面!DOCTYPE HTML標籤為HTML5的開頭-->
 <!--下面HEAD標籤為網頁的資料(看不到的地方)-->
 <html>
-	<head> 
+<head> 
         <meta charset="UTF-8">
         <meta name="description" content="嗨我是海母，稍微會日文的實況主 社群媒體🟪🧸在Twitter 上追蹤我🧸👉🏻https://twitter.com/Haimu_TW🧸在Twtch 上追蹤我🧸👉🏻https://www.twitch.tv/haimu_2022......">
         <meta name="keywords" content="海母, 水族館, 海母水族館, Haimu, Haimuaquarium, HaimuAquarium">
         <meta name="author" content="海母Haimu2022">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>首頁Index-海母水族館HaimuAquarium</title>
+		<title>聯絡我們-海母水族館HaimuAquarium</title>
 		<link rel="icon" href="/favicon.ico" type="image/x-icon"/>
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
-		<link href="/css/index.css" rel="stylesheet" type="text/css">
-	</head>
+        <style type="text/css">
+        @import url("css/contact.css");
+        </style>
+</head>
 	<body>
-		<!-- Main Container -->
-		<div class="container"> 
-  			<!-- Navigation -->
-  			<header>
-    			<nav>
-      				<ul>
-        				<li><a href="#hero">&nbsp;&nbsp;首&nbsp;&nbsp;&nbsp;頁&nbsp;&nbsp;</a></li>
-        				<li><a href="#about">關於我們</a></li>
-        				<li> <a href="#contact">推薦網站</a></li>
+	<!-- Main Container -->
+	<div class="container"> 
+	  <!-- Navigation -->
+	  <header>
+		<a href="index.html" target="_top"><img src="images/LOGO.png" alt class="logo"></a>
+		<br style="color: #e5ae06">
+		<nav>
+		  <ul class="nav_link" id="nav_link_all">
+        				<li><a href="index.html" class="text_nav" id="nav_link_index">&nbsp;&nbsp;首&nbsp;&nbsp;&nbsp;頁&nbsp;&nbsp;</a></li>
+        				<li><a href="about.html" class="text_nav" id="nav_link_about">關於我們</a></li>
+        				<li><a href="web.html" class="text_nav" id="nav_link_web">推薦網站</a></li>
+						<li><a href="serverip.html" class="text_nav" id="nav_link_serverip">&nbsp;伺服&nbsp;I&nbsp;P&nbsp;</a></li>
+        				<li><a href="news.html" class="text_nav" id="nav_link_news">最新消息</a></li>
+        				<li><a href="contact.html" class="text_nav" id="nav_link_contact">聯絡我們</a></li>
       				</ul>
-    			</nav>
-  			</header>
-  			<!-- Hero Section -->
-  			<section class="hero" id="hero">
-    			<h2 class="hero_header">HERO <span class="light">LIGHT</span></h2>
-    			<p class="tagline">Light is a simple one page website</p>
+		</nav>
+	  </header>
+	  <!-- Hero Section -->
+	  <section class="hero_header">
+    			<img src="images/header.jpg" alt>
   			</section>
- 			<!-- About Section -->
-  			<section class="about" id="about">
-    			<h2 class="hidden">About</h2>
-    			<p class="text_column"></p>
-    			<p class="text_column"></p>
-    			<p class="text_column"></p>
-  			</section>
-  			<!-- Stats Gallery Section -->
-  			<div class="gallery">
-    			<div class="thumbnail">
-      				<h1 class="stats">1500</h1>
-      				<h4>TITLE</h4>
-      				<p>One line description</p>
-    			</div>
-    			<div class="thumbnail">
-     	 			<h1 class="stats">2300</h1>
-      				<h4>TITLE</h4>
-      				<p>One line description</p>
-    			</div>
-    			<div class="thumbnail">
-      				<h1 class="stats">7500</h1>
-      				<h4>TITLE</h4>
-      				<p>One line description</p>
-    			</div>
-    			<div class="thumbnail">
-      				<h1 class="stats">9870</h1>
-      				<h4>TITLE</h4>
-      				<p>One line description</p>
-    			</div>
-  			</div>
-  			<!-- Parallax Section -->
-  <section class="banner">
-    <h2 class="parallax">PARALLAX HERO</h2>
-    <p class="parallax_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-  </section>
-  <!-- More Info Section -->
-  <footer>
-    <article class="footer_column">
-      <h3>ABOUT</h3>
-      <img src="images/placeholder.jpg" alt="" width="400" height="200" class="cards"/>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla </p>
-    </article>
-    <article class="footer_column">
-      <h3>LOCATION</h3>
-      <img src="images/placeholder.jpg" alt="" width="400" height="200" class="cards"/>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla </p>
-    </article>
-  </footer>
-  <!-- Footer Section -->
-  <section class="footer_banner" id="contact">
-    <h2 class="hidden">Footer Banner Section </h2>
-    <p class="hero_header">FOR THE LATEST NEWS &amp; UPDATES</p>
-    <div class="button">subscribe</div>
-  </section>
-  <!-- Copyrights Section -->
-  <div class="copyright">&copy;2021- <strong>Light Theme</strong></div>
-</div>
-<!-- Main Container Ends -->
-</body>
+	  
+		<!-- Main Container Ends -->
+	</div>
+	</body>
 </html>
